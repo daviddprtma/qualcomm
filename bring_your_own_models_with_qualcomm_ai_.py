@@ -9,14 +9,14 @@ Original file is located at
 
 pip install qai-hub
 
-!qai-hub configure --api_token d4a46d95c152fd0151860c201f1b1cea9014eb28
+!qai-hub configure --api_token <YOUR_API_TOKEN>
 
 import qai_hub as hub
 hub.get_devices()
 
 !pip3 install "qai-hub[torch]"
 
-!qai-hub configure --api_token d4a46d95c152fd0151860c201f1b1cea9014eb28
+!qai-hub configure --api_token <YOUR_API_TOKEN>
 
 import qai_hub as hub
 hub.get_devices()
